@@ -1,0 +1,78 @@
+00:00:00.002203 main     VirtualBox XPCOM Server 6.1.30_Gentoo r148432 linux.amd64 (Nov 29 2021 13:47:22) release log
+00:00:00.002204 main     Log opened 2021-11-29T23:05:23.313952000Z
+00:00:00.002205 main     Build Type: release
+00:00:00.002207 main     OS Product: Linux
+00:00:00.002207 main     OS Release: 5.15.5-gentoo-x86_64
+00:00:00.002208 main     OS Version: #1 SMP Fri Nov 26 08:28:57 PST 2021
+00:00:00.002227 main     DMI Product Name: System Product Name
+00:00:00.002234 main     DMI Product Version: System Version
+00:00:00.002240 main     Firmware type: UEFI
+00:00:00.002281 main     Secure Boot: Disabled
+00:00:00.002301 main     Host RAM: 32052MB (31.3GB) total, 31331MB (30.5GB) available
+00:00:00.002304 main     Executable: /usr/lib64/virtualbox/VBoxSVC
+00:00:00.002304 main     Process ID: 3791
+00:00:00.002304 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002841 main     IPC socket path: /tmp/.vbox-ross-ipc/ipcd
+00:00:00.106094 nspr-2   VirtualBox: object creation starts
+00:00:00.106502 nspr-2   Home directory: '/home/ross/.config/VirtualBox'
+00:00:00.106670 nspr-2   Loading settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.110863 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.110886 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.113368 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.113988 nspr-2   HostDnsMonitor: initializing
+00:00:00.114045 nspr-2   NAT: resolv.conf: nameserver 192.168.1.254
+00:00:00.114049 nspr-2   NAT: resolv.conf: nameserver 2600:1700:7c00:2b90::1
+00:00:00.114055 nspr-2   HostDnsMonitor: updating information
+00:00:00.114065 nspr-2   HostDnsMonitor: old information
+00:00:00.114066 nspr-2     no server entries
+00:00:00.114067 nspr-2     no domain set
+00:00:00.114068 nspr-2     no search string entries
+00:00:00.114069 nspr-2   HostDnsMonitor: new information
+00:00:00.114069 nspr-2     server 1: 192.168.1.254
+00:00:00.114070 nspr-2     server 2: 2600:1700:7c00:2b90::1
+00:00:00.114071 nspr-2     domain: attlocal.net
+00:00:00.114072 nspr-2     search string 1: attlocal.net
+00:00:00.114085 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.114860 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.116100 nspr-2   VirtualBox: object created
+00:00:02.925372 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:02.925617 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:51.370157 createBase Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:51.884344 nspr-3   Saving settings file "/home/ross/.VirtualBox/Machines/Deb/Deb.vbox" with version "1.16-linux"
+00:00:51.885108 nspr-2   Saving settings file "/home/ross/.VirtualBox/Machines/Deb/Deb.vbox" with version "1.16-linux"
+00:00:51.885472 nspr-2   Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:51.887059 nspr-2   Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:51.887749 nspr-3   Saving settings file "/home/ross/.VirtualBox/Machines/Deb/Deb.vbox" with version "1.16-linux"
+00:00:52.268084 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:53.419207 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:53.739777 nspr-3   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:53.739831 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:53.739873 nspr-3   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:53.744965 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:53.747327 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:53.808469 nspr-3   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:14.289098 nspr-2   Saving settings file "/home/ross/.VirtualBox/Machines/Deb/Deb.vbox" with version "1.16-linux"
+00:01:14.309273 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:15.297559 nspr-4   Launched VM: 3355450256 pid: 4255 (0x109f) frontend: GUI/Qt name: Deb
+00:01:15.303590 nspr-4   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:15.386686 nspr-6   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:15.653361 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:01:15.678742 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:15.683806 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp4s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:18.792466 nspr-5   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:18.796119 nspr-6   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:18.810984 nspr-6   Saving settings file "/home/ross/.VirtualBox/Machines/Deb/Deb.vbox" with version "1.16-linux"
+00:01:19.315798 nspr-2   Saving settings file "/home/ross/.VirtualBox/Machines/Deb/Deb.vbox" with version "1.16-linux"
+00:01:19.324740 nspr-5   Saving settings file "/home/ross/.VirtualBox/Machines/Deb/Deb.vbox" with version "1.16-linux"
+00:01:19.417764 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:19.820746 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:01:56.163925 nspr-5   Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:33.830402 nspr-3   Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:33.835344 nspr-4   Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:33.838084 nspr-5   Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:33.839057 nspr-6   Saving settings file "/home/ross/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:39.841932 main     VirtualBox: object deletion starts
+00:03:39.842053 main     HostDnsMonitor: shutting down ...
+00:03:39.850545 main     HostDnsMonitor: shut down
+00:03:39.857257 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:03:39.857292 main     VirtualBox: object deleted

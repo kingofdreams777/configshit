@@ -1,0 +1,23 @@
+00:00:00.211112 VirtualBox GUI VM Selector Window 6.1.30_Gentoo r148432 linux.amd64 (Nov 29 2021 13:47:22) release log
+00:00:00.211113 Log opened 2021-11-29T23:05:23.445591000Z
+00:00:00.211113 Build Type: release
+00:00:00.211115 OS Product: Linux
+00:00:00.211116 OS Release: 5.15.5-gentoo-x86_64
+00:00:00.211116 OS Version: #1 SMP Fri Nov 26 08:28:57 PST 2021
+00:00:00.211128 DMI Product Name: System Product Name
+00:00:00.211132 DMI Product Version: System Version
+00:00:00.211136 Firmware type: UEFI
+00:00:00.211185 Secure Boot: Disabled
+00:00:00.211205 Host RAM: 32052MB (31.3GB) total, 31331MB (30.5GB) available
+00:00:00.211208 Executable: /usr/lib64/virtualbox/VirtualBox
+00:00:00.211208 Process ID: 3771
+00:00:00.211208 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.211223 Qt version: 5.15.2
+00:00:00.228801 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.228808 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.536576 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 957x20 x 954x522
+00:00:51.954547 GUI: UIMediumEnumerator: Medium with key={{c1524510-5a8a-4002-8ac0-b5fbd1290de1}} created
+00:00:52.000519 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:14.383394 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:19.442023 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:20.858770 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0

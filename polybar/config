@@ -1,0 +1,57 @@
+[global/wm]
+
+margin-bottom = 0
+
+[bar/bspwm]
+monitor = ${env:MONITOR}
+;monitor-fallback = HDMI0
+width = 100%
+height = 20
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = true
+bottom = false
+separator = 
+modules-left = bspwm
+modules-right = date memory
+
+[module/date]
+type = internal/date
+
+interval = 1.0
+
+date = %a %m/%d/%Y
+
+time = %I:%M:%S %p
+
+label = <date> <time>
+label-font = 3
+
+[module/bspwm]
+pin-workspaces = true
+
+inline-mode = false
+
+enable-click = true
+
+enable-scroll = false
+
+[module/memory]
+type = internal/memory
+
+interval = 3
+
+format = <label>
+
+
+label = RAM:%gb_used%/%gb_free%
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+format = <label> <ramp-coreload>
+label = CPU %percentage%
+
+[settings]
+psuedo-transparency = false
