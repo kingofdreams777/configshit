@@ -51,7 +51,7 @@ get_duration() {
 
 }
 
-KEY="47309a80586e6935ae0d0a60285adc40"
+KEY=""
 CITY=""
 UNITS="imperial"
 SYMBOL="°F"
