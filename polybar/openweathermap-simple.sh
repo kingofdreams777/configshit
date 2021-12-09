@@ -41,7 +41,7 @@ get_icon() {
     echo $icon
 }
 
-KEY="47309a80586e6935ae0d0a60285adc40"
+KEY=""
 CITY="5391811"
 UNITS="imperial"
 SYMBOL=" °F"
